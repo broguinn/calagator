@@ -6,7 +6,7 @@ body {
 }
 
 #global_header {
-  background: #82c555;
+  background: #da7030;
   position: relative;
   height: 95px;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 #top_footer {
-  background: #445544;
+  background: #722f06;
   color: #f9ffec;
   padding: .5em 30px .5em 40px;
   font-size: 70%;
@@ -25,14 +25,11 @@ body {
 
 
 #project_title {
-  background: image-url("head_calagator.gif") no-repeat;
-  height: 31px;
+  font-size: 30px;
   left: 40px;
-  overflow: hidden;
   position: absolute;
-  text-indent: -999px;
-  top: 25px;
-  width: 135px;
+  top: 15px;
+  font-family: 'Roboto Slab';
 }
 
 #app_menu ul {
@@ -54,7 +51,7 @@ body {
 }
 
 #app_menu li.active {
-  background: image-url("nav_marker.gif") no-repeat center bottom;
+  background: image-url("orange_nav_marker.png") no-repeat center bottom;
 }
 
 #project_menu {
@@ -74,7 +71,7 @@ body {
 
 .subnav {
   font-size: 1.2em;
-  background: #bcf794;
+  background: #FD8943;
   padding-left: 40px;
   line-height: 2em;
 }
@@ -95,7 +92,7 @@ body {
 }
 
 .subnav .active {
-  background: image-url("subnav_marker.gif") no-repeat center bottom;
+  background: image-url("nav_marker.png") no-repeat center bottom;
 }
 
 
